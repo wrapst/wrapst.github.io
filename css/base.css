@@ -1,0 +1,147 @@
+h1 {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 84px;
+  color: #000000;
+}
+
+h1.logo {
+  font-family: "SansSerif";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+
+h2 {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+h2.transparent {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+p {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 160%;
+  letter-spacing: 0.2px;
+  text-indent: 15px;
+  color: #000000;
+}
+
+p.bold {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 160%;
+  letter-spacing: 0.2px;
+  text-indent: 15px;
+  color: #000000;
+}
+
+p.home {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  text-indent: 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+p.quote {
+  font-family: "SansSerif";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  text-align: center;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+a.primary {
+  height: 60px;
+  width: 200px;
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+
+  color: #000000;
+  cursor: pointer;
+}
+
+a.secondary {
+  height: 60px;
+  width: 200px;
+  box-sizing: border-box;
+
+  background: #ffffff;
+  border: none;
+
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.2%;
+  color: #000000;
+  cursor: pointer;
+}
+
+h5 {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+h6 {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+
+  color: rgba(0, 0, 0, 0.6);
+}

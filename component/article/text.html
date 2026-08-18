@@ -1,0 +1,11 @@
+<section class="flex column text">
+
+    ${obj.paragraphs.map(paragraph => `
+
+    <p class="${paragraph.bold ? " bold" : "" }">
+        ${paragraph.content}
+    </p>
+
+    `).join("")}
+
+</section>
