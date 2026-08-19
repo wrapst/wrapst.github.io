@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     subtitle: "The mind that shaped the world",
 
+    category: "Design",
+
     sections: [
       {
         type: "hero",
