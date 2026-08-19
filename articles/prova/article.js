@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data: {
           title: "Le Corbusier: More Than Just Designs",
           subtitle: "The mind that shaped the world",
-          image: "../articles/prova/img/LC4.png",
+          image: "img/LC4.png",
           alt: "Le Corbusier LC4 chaise longue",
         },
       },
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "../articles/prova/img/LC4-cow.jpg",
+          image: "img/LC4-cow.jpg",
           alt: "LC4 chaise longue in leather",
         },
       },
