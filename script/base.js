@@ -1,6 +1,6 @@
 window.addEventListener("load", async function () {
-  await load("../component/navbar.html", "navbar");
-  await load("../component/footer.html", "footer");
+  await load("/component/navbar.html", "navbar");
+  await load("/component/footer.html", "footer");
 
   initMenu();
 });
