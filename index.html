@@ -11,10 +11,69 @@
 
     <link rel="icon" href="/svg/favicon.svg" type="image/svg+xml">
 
-    <script src="/script/components-loader.js"></script>
-    <script src="/script/base.js"></script>
+    <script src="/script/components-loader.js" defer></script>
+    <script src="/script/base.js" defer></script>
 
-    <title>Home</title>
+    <title>Wrapst — Design, Tech &amp; Lifestyle</title>
+    <meta name="description"
+        content="Wrapst explores design, technology and lifestyle through thoughtful, clear and visually focused articles." />
+    <meta name="author" content="Wrapst" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://wrapst.com/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Wrapst" />
+    <meta property="og:title" content="Wrapst — Design, Tech &amp; Lifestyle" />
+    <meta property="og:description"
+        content="Thoughtful, clear and visually focused stories about design, technology and lifestyle." />
+    <meta property="og:url" content="https://wrapst.com/" />
+    <meta property="og:image" content="https://wrapst.com/img/home/hero-image.png" />
+    <meta property="og:image:width" content="750" />
+    <meta property="og:image:height" content="750" />
+    <meta property="og:image:alt" content="Minimalist chair and interior design scene representing Wrapst" />
+    <meta property="og:locale" content="en_US" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wrapst — Design, Tech &amp; Lifestyle" />
+    <meta name="twitter:description"
+        content="Thoughtful, clear and visually focused stories about design, technology and lifestyle." />
+    <meta name="twitter:image" content="https://wrapst.com/img/home/hero-image.png" />
+    <meta name="twitter:image:alt" content="Minimalist chair and interior design scene representing Wrapst" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://wrapst.com/#website",
+          "url": "https://wrapst.com/",
+          "name": "Wrapst",
+          "description": "Thoughtful, clear and visually focused stories about design, technology and lifestyle.",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://wrapst.com/#organization",
+          "name": "Wrapst",
+          "url": "https://wrapst.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://wrapst.com/img/favicon.png"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://wrapst.com/#webpage",
+          "url": "https://wrapst.com/",
+          "name": "Wrapst — Design, Tech & Lifestyle",
+          "isPartOf": { "@id": "https://wrapst.com/#website" },
+          "about": { "@id": "https://wrapst.com/#organization" },
+          "inLanguage": "en"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body class="flex column">
@@ -32,7 +91,7 @@
             </div>
         </div>
         <div class="flex image">
-            <img src="/img/home/hero-image.png" alt="hero-design-chair-image">
+            <img src="/img/home/hero-image.png" alt="Minimalist chair in a modern interior" fetchpriority="high">
         </div>
     </div>
 
@@ -42,15 +101,18 @@
         <h1>Top categories</h1>
         <div class="flex row card-holder">
             <div class="flex column card">
-                <img src="/img/home/design-category-image.png" alt="design-category-logo-image">
+                <img src="/img/home/design-category-image.png"
+                    alt="Minimalist design object representing the Design category" loading="lazy">
                 <a href="/in-progress/" class="flex primary">Design</a>
             </div>
             <div class="flex column card">
-                <img src="/img/home/tech-category-image.png" alt="tech-category-logo-image">
+                <img src="/img/home/tech-category-image.png"
+                    alt="Minimalist technology object representing the Tech category" loading="lazy">
                 <a href="/in-progress/" class="flex primary">Tech</a>
             </div>
             <div class="flex column card">
-                <img src="/img/home/lifestyle-category-image.png" alt="lifestyle-category-logo-image">
+                <img src="/img/home/lifestyle-category-image.png"
+                    alt="Minimalist lifestyle object representing the Lifestyle category" loading="lazy">
                 <a href="/in-progress/" class="flex primary">Lifestyle</a>
             </div>
         </div>
@@ -83,10 +145,12 @@
                     <a href="/in-progress/" class="flex secondary">Get in touch</a>
                 </div>
             </div>
-            <img src="/img/home/glasses-bullet-image.png" alt="pair-of-glasses-image">
+            <img src="/img/home/glasses-bullet-image.png" alt="Minimalist pair of glasses illustrating everyday design"
+                loading="lazy">
         </div>
         <div class="flex row bullet">
-            <img src="/img/home/lamp-bullet-image.png" alt="lamp-image">
+            <img src="/img/home/lamp-bullet-image.png" alt="Minimalist table lamp illustrating thoughtful design"
+                loading="lazy">
             <div class="flex column text">
                 <h1>It's our mission</h1>
                 <p class="home">Sharing content in a new way, passionate, simple and clear for everybody. Thanks to

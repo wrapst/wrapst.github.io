@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /in-progress/
 
 Sitemap: https://wrapst.com/sitemap.xml
