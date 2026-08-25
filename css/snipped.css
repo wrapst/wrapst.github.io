@@ -104,6 +104,12 @@
   width: 100%;
 }
 
+.snipped-holder .snipped .text h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .snipped-holder .snipped .text p {
   display: -webkit-box;
   -webkit-line-clamp: 2;

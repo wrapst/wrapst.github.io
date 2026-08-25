@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-planet-that-shouldnt-exist",
     "when-more-becomes-the-product",
     "why-good-design-disappears",
+    "the-city-that-disappears",
   ];
 
   /* =====================================================
@@ -77,6 +78,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     tech: "Category: Tech",
     design: "Category: Design",
     science: "Category: Science",
+    lifestyle: "Category: Lifestyle",
   };
 
   function updateCategoryLabel(category) {
@@ -274,7 +276,9 @@ document.addEventListener("DOMContentLoaded", async function () {
       category === "all" ||
       category === "tech" ||
       category === "design" ||
-      category === "science"
+      category === "science" ||
+      category === "lifestyle"
+
     ) {
       return category;
     }
