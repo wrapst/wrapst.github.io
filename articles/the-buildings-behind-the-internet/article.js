@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     subtitle:
       "Why the invisible architecture of AI is becoming impossible to ignore",
 
-    category: "Technology",
+    category: "Tech",
 
     sections: [
       {

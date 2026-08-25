@@ -7,7 +7,7 @@ h1 {
   color: #000000;
 }
 
-h1.logo {
+span.logo {
   font-family: "SansSerif";
   font-style: italic;
   font-weight: 700;
@@ -28,6 +28,24 @@ h2 {
 
 h2.transparent {
   color: rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+  font-family: "SansSerif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+h3.transparent {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h3.fine{
+  font-weight: 400;
 }
 
 p {

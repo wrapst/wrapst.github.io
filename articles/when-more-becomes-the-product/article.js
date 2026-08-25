@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     subtitle:
       "What the iPhone 18 Pro Max says about our idea of the perfect smartphone",
 
-    category: "Technology",
+    category: "Tech",
 
     sections: [
       {

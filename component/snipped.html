@@ -1,0 +1,14 @@
+<a href="/articles/${obj.slug}/" class="flex row snipped">
+    <div class="flex row left">
+        <img src="/articles/${obj.slug}/${obj.sections[0].data.image}" alt="${obj.sections[0].data.alt || obj.title}">
+
+        <div class="flex column text">
+            <h3>${obj.title}</h3>
+            <p class="home">${obj.subtitle}</p>
+        </div>
+    </div>
+
+    <div class="flex row right">
+        <h2 class="transparent">${obj.category}</h2>
+    </div>
+</a>

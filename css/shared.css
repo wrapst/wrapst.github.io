@@ -1,117 +1,122 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html, body{
-    overflow-x: hidden;
+html {
+  scroll-behavior: smooth;
 }
 
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+html,
+body {
+  overflow-x: hidden;
 }
 
-.row{
-    flex-direction: row;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.column{
-    flex-direction: column;
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .spacer {
   height: 200px;
 }
 
-.spacer-small{
-    height: 50px;
+.spacer-small {
+  height: 50px;
 }
 
-#navbar{
-    width: 100%;
-    padding: 30px 40px;
-    box-sizing: border-box;
-    div {
-        justify-content: space-between;
-    }
+#navbar {
+  width: 100%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  div {
+    justify-content: space-between;
+  }
 }
 
-#footer{
-    width: 100%;
-    padding: 30px 40px;
-    box-sizing: border-box;
-    .line{
-        width: 900px;
-        height: 1px;
-        background: rgba(0, 0, 0, 0.4);
-    }
-    div{
-        gap: 40px;
-    }
-    div div{
-        gap: 50px;
-    }
+#footer {
+  width: 100%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  .line {
+    width: 900px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  div {
+    gap: 40px;
+  }
+  div div {
+    gap: 50px;
+  }
 }
 
 /* Responsive layout: desktop rules above stay unchanged. */
-@media (max-width: 1024px){
-    .spacer{
-        height: 120px;
-    }
+@media (max-width: 1024px) {
+  .spacer {
+    height: 120px;
+  }
 
-    #navbar{
-        padding: 24px 28px;
-    }
+  #navbar {
+    padding: 24px 28px;
+  }
 
-    #footer{
-        padding: 24px 28px;
+  #footer {
+    padding: 24px 28px;
 
-        .line{
-            width: min(900px, 100%);
-        }
+    .line {
+      width: min(900px, 100%);
     }
+  }
 }
 
-@media (max-width: 700px){
-    .spacer{
-        height: 120px;
+@media (max-width: 700px) {
+  .spacer {
+    height: 120px;
+  }
+
+  #navbar {
+    padding: 20px;
+
+    .logo {
+      font-size: 36px;
+      line-height: 42px;
     }
 
-    #navbar{
-        padding: 20px;
+    img {
+      width: 26px;
+      height: 26px;
+    }
+  }
 
-        .logo{
-            font-size: 36px;
-            line-height: 42px;
-        }
+  #footer {
+    padding: 20px;
+    gap: 24px;
 
-        img{
-            width: 26px;
-            height: 26px;
-        }
+    div {
+      gap: 16px;
+      flex-wrap: wrap;
     }
 
-    #footer{
-        padding: 20px;
-        gap: 24px;
-
-        div{
-            gap: 16px;
-            flex-wrap: wrap;
-        }
-
-        div div{
-            gap: 16px;
-            flex-wrap: wrap;
-        }
-
-        h2{
-            font-size: 14px;
-            line-height: 18px;
-        }
+    div div {
+      gap: 16px;
+      flex-wrap: wrap;
     }
+
+    h2 {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
 }
 
 /* =========================
@@ -119,178 +124,180 @@ html, body{
    ========================= */
 
 .site-navbar {
-    width: 100%;
+  width: 100%;
 }
 
 .navbar-spacer {
-    width: 30px;
-    height: 30px;
-    display: block;
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 
 .menu-button {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .menu-icon {
-    width: 30px;
-    height: 30px;
-    display: block;
+  width: 30px;
+  height: 30px;
+  display: block;
 }
 
 #menu-overlay {
-    position: fixed;
-    inset: 0;
-    z-index: 1000;
-    background: rgba(0, 0, 0, 0.08);
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition: opacity 0.28s ease, visibility 0.28s ease;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition:
+    opacity 0.28s ease,
+    visibility 0.28s ease;
 }
 
 #menu-overlay.open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 #side-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1001;
 
-    width: 270px;
-    height: 100vh;
-    box-sizing: border-box;
-    padding: 26px 30px 30px;
+  width: 270px;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 26px 30px 30px;
 
-    background: #ffffff;
-    border-right: 1px solid rgba(0, 0, 0, 0.18);
+  background: #ffffff;
+  border-right: 1px solid rgba(0, 0, 0, 0.18);
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
 }
 
 #side-menu.open {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 .side-menu-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
 
-    font-family: "SansSerif";
-    font-size: 22px;
-    line-height: 28px;
-    color: #000000;
+  font-family: "SansSerif";
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
 }
 
 #menu-close {
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 30px;
-    color: rgba(0, 0, 0, 0.65);
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 .side-menu-links {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .side-menu-links a {
-    display: block;
-    padding: 13px 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.14);
+  display: block;
+  padding: 13px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
 
-    font-family: "SansSerif";
-    font-size: 18px;
-    line-height: 26px;
-    color: #000000;
+  font-family: "SansSerif";
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .side-menu-links a:last-child {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
 }
 
 .side-menu-links a:hover {
-    opacity: 0.6;
+  opacity: 0.6;
 }
 
 .side-menu-social {
-    margin-top: auto;
-    display: flex;
-    align-items: center;
-    gap: 18px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }
 
 .side-menu-social a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 22px;
-    height: 22px;
+  width: 22px;
+  height: 22px;
 
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    line-height: 22px;
-    color: rgba(0, 0, 0, 0.65);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.65);
 }
 
 .side-menu-social a:hover {
-    color: #000000;
+  color: #000000;
 }
 
 body.menu-open {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 @media (max-width: 700px) {
-    #side-menu {
-        width: 82vw;
-        max-width: 320px;
-        padding: 24px 20px 22px;
-    }
+  #side-menu {
+    width: 82vw;
+    max-width: 320px;
+    padding: 24px 20px 22px;
+  }
 
-    .side-menu-header {
-        font-size: 21px;
-        margin-bottom: 22px;
-    }
+  .side-menu-header {
+    font-size: 21px;
+    margin-bottom: 22px;
+  }
 
-    .side-menu-links a {
-        padding: 12px 0;
-        font-size: 17px;
-    }
+  .side-menu-links a {
+    padding: 12px 0;
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 420px) {
-    #side-menu {
-        width: 88vw;
-    }
+  #side-menu {
+    width: 88vw;
+  }
 }
