@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-good-design-disappears",
     "the-city-that-disappears",
     "the-things-we-build-and-never-see",
+    "the-internet-has-a-physical-shape",
   ];
 
   /* =====================================================
