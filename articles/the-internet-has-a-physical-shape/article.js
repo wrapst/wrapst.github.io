@@ -21,6 +21,7 @@ const article = {
           {
             content:
               "The internet feels like a place without a location. We send a message, open a website, upload a photograph or start a video, and none of it seems to require anything more than a screen and a connection. The information appears almost instantly, as if it simply exists somewhere beyond the physical world. We talk about the cloud, online spaces and wireless connections as though digital information has somehow escaped geography.",
+              bold: true
           },
           {
             content:
