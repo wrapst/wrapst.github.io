@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "when-more-becomes-the-product",
     "why-good-design-disappears",
     "the-city-that-disappears",
+    "the-things-we-build-and-never-see",
   ];
 
   /* =====================================================
