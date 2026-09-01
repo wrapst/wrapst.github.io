@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-things-we-build-and-never-see",
     "the-internet-has-a-physical-shape",
     "why-fast-food-keeps-turning-into-pop-culture",
+    "the-architecture-of-security",
   ];
 
   /* =====================================================
