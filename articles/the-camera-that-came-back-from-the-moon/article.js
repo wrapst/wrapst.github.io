@@ -151,6 +151,17 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "the-planet-that-shouldnt-exist",
+            "the-things-we-build-and-never-see",
+            "why-good-design-disappears",
+          ],
+        },
+      },
     ],
   };
 

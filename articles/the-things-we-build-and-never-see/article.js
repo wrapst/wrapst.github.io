@@ -258,6 +258,17 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "why-good-design-disappears",
+            "the-internet-has-a-physical-shape",
+            "the-buildings-behind-the-internet",
+          ],
+        },
+      },
     ],
   };
 

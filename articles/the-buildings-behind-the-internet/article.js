@@ -146,6 +146,17 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "the-internet-has-a-physical-shape",
+            "the-things-we-build-and-never-see",
+            "the-architecture-of-security",
+          ],
+        },
+      },
     ],
   };
 

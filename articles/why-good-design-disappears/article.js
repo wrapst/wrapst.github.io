@@ -119,6 +119,17 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "le-corbusier-more-than-just-designs",
+            "when-more-becomes-the-product",
+            "the-things-we-build-and-never-see",
+          ],
+        },
+      },
     ],
   };
 

@@ -216,6 +216,17 @@ const article = {
         ],
       },
     },
+
+    {
+      type: "suggested",
+      data: {
+        articles: [
+          "when-more-becomes-the-product",
+          "the-city-that-disappears",
+          "why-good-design-disappears",
+        ],
+      },
+    },
   ],
 };
 

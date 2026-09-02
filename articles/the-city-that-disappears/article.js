@@ -213,6 +213,17 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "le-corbusier-more-than-just-designs",
+            "the-things-we-build-and-never-see",
+            "why-fast-food-keeps-turning-into-pop-culture",
+          ],
+        },
+      },
     ],
   };
 

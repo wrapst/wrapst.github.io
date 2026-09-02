@@ -109,6 +109,17 @@ document.addEventListener("DOMContentLoaded", function () {
           ],
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "why-good-design-disappears",
+            "the-architecture-of-security",
+            "the-city-that-disappears",
+          ],
+        },
+      },
     ],
   };
 

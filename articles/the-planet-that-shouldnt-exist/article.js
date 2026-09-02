@@ -119,6 +119,17 @@ document.addEventListener("DOMContentLoaded", function () {
           alt: "Distant artistic visualization of a rocky exoplanet against a sparse field of stars",
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "the-camera-that-came-back-from-the-moon",
+            "the-things-we-build-and-never-see",
+            "the-internet-has-a-physical-shape",
+          ],
+        },
+      },
     ],
   };
 

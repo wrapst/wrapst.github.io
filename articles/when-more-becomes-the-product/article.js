@@ -151,6 +151,17 @@ document.addEventListener("DOMContentLoaded", function () {
           alt: "Minimalist smartphone disappearing into a dark architectural environment",
         },
       },
+
+      {
+        type: "suggested",
+        data: {
+          articles: [
+            "why-good-design-disappears",
+            "the-buildings-behind-the-internet",
+            "why-fast-food-keeps-turning-into-pop-culture",
+          ],
+        },
+      },
     ],
   };
 

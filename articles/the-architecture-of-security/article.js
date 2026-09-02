@@ -218,6 +218,17 @@ const article = {
         ],
       },
     },
+
+    {
+      type: "suggested",
+      data: {
+        articles: [
+          "the-things-we-build-and-never-see",
+          "the-buildings-behind-the-internet",
+          "why-good-design-disappears",
+        ],
+      },
+    },
   ],
 };
 

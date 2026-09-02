@@ -1,0 +1,21 @@
+<div class="spacer-small"></div>
+
+<div class="line"></div>
+
+<div class="spacer-small"></div>
+
+<section class="flex column suggested">
+
+    <h5 class="transparent">${obj.title || "You may also like:"}</h5>
+
+    <div class="flex row holder">
+        ${obj.articles.map(article => `
+        <a href="/articles/${article.slug}/" class="flex column card">
+            <img src="/articles/${article.slug}/${article.image}" alt="${article.alt}" loading="lazy">
+            <h6 class="black">${article.subtitle}</h6>
+            <!-- <p class="home">${article.subtitle}</p> -->
+        </a>
+        `).join("")}
+    </div>
+
+</section>

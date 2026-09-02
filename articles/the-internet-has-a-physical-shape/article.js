@@ -170,6 +170,17 @@ const article = {
         ],
       },
     },
+
+    {
+      type: "suggested",
+      data: {
+        articles: [
+          "the-buildings-behind-the-internet",
+          "the-things-we-build-and-never-see",
+          "the-architecture-of-security",
+        ],
+      },
+    },
   ],
 };
 

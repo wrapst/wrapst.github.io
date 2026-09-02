@@ -44,7 +44,7 @@ h3.transparent {
   color: rgba(0, 0, 0, 0.4);
 }
 
-h3.fine{
+h3.fine {
   font-weight: 400;
 }
 
@@ -153,6 +153,14 @@ h5 {
   color: #000000;
 }
 
+h5.transparent{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+h5.bold{
+  font-weight: 800;
+}
+
 h6 {
   font-family: "SansSerif";
   font-style: normal;
@@ -162,4 +170,8 @@ h6 {
   letter-spacing: 0.2px;
 
   color: rgba(0, 0, 0, 0.6);
+}
+
+h6.black {
+  color: rgba(0, 0, 0, 1);
 }
