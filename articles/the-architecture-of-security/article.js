@@ -1,4 +1,4 @@
-const article = {
+﻿const article = {
   title: "The Architecture of Security",
   subtitle: "How safety became part of the spaces we barely notice",
   category: "Design",
@@ -9,7 +9,7 @@ const article = {
       data: {
         title: "The Architecture of Security",
         subtitle: "How safety became part of the spaces we barely notice",
-        image: "./img/the-architecture-of-security-hero.jpg",
+        image: "./img/the-architecture-of-security-hero.webp",
         alt: "A contemporary civic building with subtle security elements integrated into its architecture",
       },
     },
@@ -38,7 +38,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-architecture-of-security-perimeter.jpg",
+        image: "./img/the-architecture-of-security-perimeter.webp",
         alt: "A public building with a carefully designed setback and protective landscape elements",
       },
     },
@@ -98,7 +98,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-architecture-of-security-checkpoint.jpg",
+        image: "./img/the-architecture-of-security-checkpoint.webp",
         alt: "A modern airport security checkpoint integrated into a spacious terminal interior",
       },
     },
@@ -130,7 +130,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-architecture-of-security-structure.jpg",
+        image: "./img/the-architecture-of-security-structure.webp",
         alt: "Modern structural architecture showing a robust and redundant building frame",
       },
     },
@@ -162,7 +162,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-architecture-of-security-entrance.jpg",
+        image: "./img/the-architecture-of-security-entrance.webp",
         alt: "A contemporary civic building entrance where security measures are integrated into the design",
       },
     },

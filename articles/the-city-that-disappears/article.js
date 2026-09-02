@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "The City That Disappears",
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "The City That Disappears",
           subtitle:
             "Inside Burning Man, the temporary city built to leave nothing behind",
-          image: "img/burning-man-city-hero.jpg",
+          image: "img/burning-man-city-hero.webp",
           alt: "A vast temporary city glowing at night in the Black Rock Desert",
         },
       },
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/burning-man-architecture.jpg",
+          image: "img/burning-man-architecture.webp",
           alt: "Large temporary art structure standing alone in the desert",
         },
       },
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/burning-man-desert-day.jpg",
+          image: "img/burning-man-desert-day.webp",
           alt: "Temporary structures standing across a vast desert landscape during daylight",
         },
       },
@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/burning-man-disappearing-city.jpg",
+          image: "img/burning-man-disappearing-city.webp",
           alt: "Empty desert landscape after a temporary city has disappeared",
         },
       },

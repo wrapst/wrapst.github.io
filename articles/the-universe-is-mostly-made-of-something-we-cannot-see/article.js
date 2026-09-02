@@ -1,4 +1,4 @@
-const article = {
+﻿const article = {
     title: "The Universe Is Mostly Made of Something We Cannot See",
     subtitle: "Why the invisible may shape almost everything we know",
     category: "Science",
@@ -9,7 +9,7 @@ const article = {
             data: {
                 title: "The Universe Is Mostly Made of Something We Cannot See",
                 subtitle: "Why the invisible may shape almost everything we know",
-                image: "./img/distant-galaxy-dark-halo.jpg",
+                image: "./img/distant-galaxy-dark-halo.webp",
                 alt: "Distant spiral galaxy surrounded by a vast faint halo of unseen matter"
             }
         },
@@ -35,7 +35,7 @@ const article = {
         {
             type: "image",
             data: {
-                image: "./img/spiral-galaxy-invisible-mass.jpg",
+                image: "./img/spiral-galaxy-invisible-mass.webp",
                 alt: "Spiral galaxy surrounded by a diffuse structure representing its unseen mass"
             }
         },
@@ -84,7 +84,7 @@ const article = {
         {
             type: "image",
             data: {
-                image: "./img/underground-xenon-particle-detector.jpg",
+                image: "./img/underground-xenon-particle-detector.webp",
                 alt: "Large underground particle detector built to search for extremely rare dark matter interactions"
             }
         },
@@ -126,7 +126,7 @@ const article = {
         {
             type: "image",
             data: {
-                image: "./img/faint-particle-interaction-detector.jpg",
+                image: "./img/faint-particle-interaction-detector.webp",
                 alt: "Faint particle interaction visualized inside a dark matter detection chamber"
             }
         },
@@ -151,7 +151,7 @@ const article = {
         {
             type: "image",
             data: {
-                image: "./img/large-scale-cosmic-web-galaxies.jpg",
+                image: "./img/large-scale-cosmic-web-galaxies.webp",
                 alt: "Large scale cosmic web of galaxies and filaments shaped by invisible matter"
             }
         },

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "The Planet That Shouldn't Exist",
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "The Planet That Shouldn't Exist",
           subtitle:
             "What GJ 523b reveals about how little we understand about worlds beyond our own",
-          image: "img/gj-523b-hero.jpg",
+          image: "img/gj-523b-hero.webp",
           alt: "Artistic visualization of a massive rocky exoplanet isolated in deep space",
         },
       },
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/gj-523b-scale.jpg",
+          image: "img/gj-523b-scale.webp",
           alt: "Artistic comparison suggesting the enormous mass of GJ 523b relative to Earth",
         },
       },
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/gj-523b-final.jpg",
+          image: "img/gj-523b-final.webp",
           alt: "Distant artistic visualization of a rocky exoplanet against a sparse field of stars",
         },
       },

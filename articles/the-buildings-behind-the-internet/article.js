@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "The Buildings Behind the Internet",
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "The Buildings Behind the Internet",
           subtitle:
             "Why the invisible architecture of AI is becoming impossible to ignore",
-          image: "img/data-center-hero.jpg",
+          image: "img/data-center-hero.webp",
           alt: "Minimalist architectural visualization of a vast modern data center",
         },
       },
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/data-center-interior.jpg",
+          image: "img/data-center-interior.webp",
           alt: "Rows of computer racks inside a large modern data center",
         },
       },
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/data-center-landscape.jpg",
+          image: "img/data-center-landscape.webp",
           alt: "Large data center building integrated into a quiet rural landscape",
         },
       },

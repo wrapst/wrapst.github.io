@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "Why Good Design Disappears",
 
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data: {
           title: "Why Good Design Disappears",
           subtitle: "When the best objects stop asking for attention",
-          image: "img/good-design-hero.jpg",
+          image: "img/good-design-hero.webp",
           alt: "Minimalist everyday object photographed in a quiet modern interior",
         },
       },
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/good-design-still-life.jpg",
+          image: "img/good-design-still-life.webp",
           alt: "Minimalist arrangement of everyday objects in a modern interior",
         },
       },

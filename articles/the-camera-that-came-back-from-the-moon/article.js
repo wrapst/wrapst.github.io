@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "The Camera That Came Back From the Moon",
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "The Camera That Came Back From the Moon",
           subtitle:
             "The strange story of Apollo 12, Surveyor 3, and a tiny piece of life that may have survived the journey",
-          image: "img/surveyor-3-hero.jpg",
+          image: "img/surveyor-3-hero.webp",
           alt: "Artistic visualization of the Surveyor 3 spacecraft on the surface of the Moon",
         },
       },
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/surveyor-3-camera.jpg",
+          image: "img/surveyor-3-camera.webp",
           alt: "Historical view of the Surveyor 3 television camera recovered by Apollo 12",
         },
       },
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/moon-camera-detail.jpg",
+          image: "img/moon-camera-detail.webp",
           alt: "Artistic close-up of an old spacecraft camera resting on the lunar surface",
         },
       },

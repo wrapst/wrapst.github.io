@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "When More Becomes the Product",
 
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
           title: "When More Becomes the Product",
           subtitle:
             "What the iPhone 18 Pro Max says about our idea of the perfect smartphone",
-          image: "img/iphone-18-pro-max-hero.jpg",
+          image: "img/iphone-18-pro-max-hero.webp",
           alt: "Minimalist editorial visualization of a premium smartphone on a dark surface",
         },
       },
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/iphone-18-pro-max-detail.jpg",
+          image: "img/iphone-18-pro-max-detail.webp",
           alt: "Close editorial view of a premium smartphone camera and titanium-like frame",
         },
       },
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/iphone-18-pro-max-final.jpg",
+          image: "img/iphone-18-pro-max-final.webp",
           alt: "Minimalist smartphone disappearing into a dark architectural environment",
         },
       },

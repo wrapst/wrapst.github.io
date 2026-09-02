@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "The Things We Build and Never See",
 
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data: {
           title: "The Things We Build and Never See",
           subtitle: "The hidden infrastructure that keeps modern life running",
-          image: "img/the-things-we-build-hero.jpg",
+          image: "img/the-things-we-build-hero.webp",
           alt: "A modern city viewed above ground with its hidden infrastructure suggested beneath the surface",
         },
       },
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/the-things-we-build-underground.jpg",
+          image: "img/the-things-we-build-underground.webp",
           alt: "Cross section of a modern city revealing underground water pipes, tunnels and utility networks",
         },
       },
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/the-things-we-build-grid.jpg",
+          image: "img/the-things-we-build-grid.webp",
           alt: "Electrical transmission infrastructure extending across a vast landscape toward a distant city",
         },
       },
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/the-things-we-build-cables.jpg",
+          image: "img/the-things-we-build-cables.webp",
           alt: "Submarine fiber optic cables extending across a dark ocean floor toward distant continents",
         },
       },
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/the-things-we-build-infrastructure.jpg",
+          image: "img/the-things-we-build-infrastructure.webp",
           alt: "Layered visualization showing roads, tunnels, pipes, cables and digital infrastructure beneath a modern city",
         },
       },

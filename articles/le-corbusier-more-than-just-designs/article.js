@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+﻿document.addEventListener("DOMContentLoaded", function () {
   const article = {
     title: "Le Corbusier: More Than Just Designs",
 
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         data: {
           title: "Le Corbusier: More Than Just Designs",
           subtitle: "The mind that shaped the world",
-          image: "img/LC4.png",
+          image: "img/LC4.webp",
           alt: "Le Corbusier LC4 chaise longue",
         },
       },
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
       {
         type: "image",
         data: {
-          image: "img/LC4-cow.jpg",
+          image: "img/LC4-cow.webp",
           alt: "LC4 chaise longue in leather",
         },
       },

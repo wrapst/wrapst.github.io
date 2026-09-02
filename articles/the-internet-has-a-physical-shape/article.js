@@ -1,4 +1,4 @@
-const article = {
+﻿const article = {
   title: "The Internet Has a Physical Shape",
   subtitle: "The hidden infrastructure behind the digital world",
   category: "Tech",
@@ -9,7 +9,7 @@ const article = {
       data: {
         title: "The Internet Has a Physical Shape",
         subtitle: "The hidden infrastructure behind the digital world",
-        image: "./img/the-internet-has-a-physical-shape-hero.jpg",
+        image: "./img/the-internet-has-a-physical-shape-hero.webp",
         alt: "A vast network of submarine cables, data centers and terrestrial infrastructure representing the physical structure of the internet",
       },
     },
@@ -58,7 +58,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-internet-has-a-physical-shape-cables.jpg",
+        image: "./img/the-internet-has-a-physical-shape-cables.webp",
         alt: "A submarine fiber optic telecommunications cable being deployed across the ocean floor",
       },
     },
@@ -98,7 +98,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-internet-has-a-physical-shape-data-center.jpg",
+        image: "./img/the-internet-has-a-physical-shape-data-center.webp",
         alt: "Rows of servers inside a modern data center showing the physical infrastructure behind cloud computing",
       },
     },
@@ -122,7 +122,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-internet-has-a-physical-shape-exchange.jpg",
+        image: "./img/the-internet-has-a-physical-shape-exchange.webp",
         alt: "Network switches and fiber connections inside a physical internet exchange facility",
       },
     },
@@ -146,7 +146,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/the-internet-has-a-physical-shape-landing.jpg",
+        image: "./img/the-internet-has-a-physical-shape-landing.webp",
         alt: "A coastal submarine cable landing station connecting an undersea cable to terrestrial internet infrastructure",
       },
     },

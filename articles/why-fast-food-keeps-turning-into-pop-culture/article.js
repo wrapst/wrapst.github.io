@@ -1,4 +1,4 @@
-const article = {
+﻿const article = {
   title: "Why Fast Food Keeps Turning Into Pop Culture",
   subtitle: "Why the meal is no longer the whole experience",
   category: "Design",
@@ -9,7 +9,7 @@ const article = {
       data: {
         title: "Why Fast Food Keeps Turning Into Pop Culture",
         subtitle: "Why the meal is no longer the whole experience",
-        image: "./img/why-fast-food-keeps-turning-into-pop-culture-hero.jpg",
+        image: "./img/why-fast-food-keeps-turning-into-pop-culture-hero.webp",
         alt: "A fast food restaurant transformed into a colorful contemporary cultural experience",
       },
     },
@@ -39,7 +39,7 @@ const article = {
       type: "image",
       data: {
         image:
-          "./img/why-fast-food-keeps-turning-into-pop-culture-collaboration.jpg",
+          "./img/why-fast-food-keeps-turning-into-pop-culture-collaboration.webp",
         alt: "A fast food meal presented alongside objects inspired by contemporary pop culture",
       },
     },
@@ -103,7 +103,7 @@ const article = {
     {
       type: "image",
       data: {
-        image: "./img/why-fast-food-keeps-turning-into-pop-culture-limited.jpg",
+        image: "./img/why-fast-food-keeps-turning-into-pop-culture-limited.webp",
         alt: "A limited edition fast food dessert presented like a collectible cultural object",
       },
     },
@@ -160,7 +160,7 @@ const article = {
       type: "image",
       data: {
         image:
-          "./img/why-fast-food-keeps-turning-into-pop-culture-participation.jpg",
+          "./img/why-fast-food-keeps-turning-into-pop-culture-participation.webp",
         alt: "Friends photographing and sharing a playful fast food experience together",
       },
     },
