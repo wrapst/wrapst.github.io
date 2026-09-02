@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-internet-has-a-physical-shape",
     "why-fast-food-keeps-turning-into-pop-culture",
     "the-architecture-of-security",
+    "the-universe-is-mostly-made-of-something-we-cannot-see",
   ];
 
   /* =====================================================
@@ -282,7 +283,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       category === "design" ||
       category === "science" ||
       category === "lifestyle"
-
     ) {
       return category;
     }
