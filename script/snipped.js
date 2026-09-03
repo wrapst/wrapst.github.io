@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-fast-food-keeps-turning-into-pop-culture",
     "the-architecture-of-security",
     "the-universe-is-mostly-made-of-something-we-cannot-see",
+    "the-library-where-ai-became-open",
   ];
 
   /* =====================================================
