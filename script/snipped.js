@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-architecture-of-security",
     "the-universe-is-mostly-made-of-something-we-cannot-see",
     "the-library-where-ai-became-open",
+    "the-day-ai-stopped-being-a-tool",
   ];
 
   /* =====================================================
