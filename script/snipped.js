@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", async function () {
             );
           });
 
-    const articlesToShow = filteredArticles.slice(0, 10);
+    const articlesToShow = filteredArticles.slice(-10).reverse();
 
     console.log(
       `Rendering ${articlesToShow.length} articles for category: ${currentCategory}`,
@@ -234,6 +234,10 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
 
       setCategory(category);
+
+      document
+        .getElementById("headings")
+        .scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 
