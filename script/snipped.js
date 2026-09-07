@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-library-where-ai-became-open",
     "the-day-ai-stopped-being-a-tool",
     "the-strange-shape-at-the-bottom-of-saturn",
+    "the-internet-was-built-for-humans",
   ];
 
   /* =====================================================
