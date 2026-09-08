@@ -1,6 +1,7 @@
 <a href="/articles/${obj.slug}/" class="flex row snipped">
     <div class="flex row left">
-        <img src="/articles/${obj.slug}/${obj.sections[0].data.image}" alt="${obj.sections[0].data.alt || obj.title}">
+        <img src="/articles/${obj.slug}/${obj.sections[0].data.image}" alt="${obj.sections[0].data.alt || obj.title}"
+            loading="lazy">
 
         <div class="flex column text">
             <h3>${obj.title}</h3>
