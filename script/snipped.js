@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-day-ai-stopped-being-a-tool",
     "the-strange-shape-at-the-bottom-of-saturn",
     "the-internet-was-built-for-humans",
+    "why-coffee-shops-all-look-the-same",
   ];
 
   /* =====================================================
