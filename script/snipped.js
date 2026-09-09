@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-coffee-shops-all-look-the-same",
     "why-being-still-feels-so-difficult",
     "the-equations-we-still-cannot-fully-solve",
+    "why-apple-events-still-feel-like-events",
   ];
 
   /* =====================================================
