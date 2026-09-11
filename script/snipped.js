@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-being-still-feels-so-difficult",
     "the-equations-we-still-cannot-fully-solve",
     "why-apple-events-still-feel-like-events",
+    "the-new-shape-of-apple",
   ];
 
   /* =====================================================
