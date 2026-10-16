@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-equations-we-still-cannot-fully-solve",
     "why-apple-events-still-feel-like-events",
     "the-new-shape-of-apple",
+    "the-future-of-work",
   ];
 
   /* =====================================================
