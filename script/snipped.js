@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-apple-events-still-feel-like-events",
     "the-new-shape-of-apple",
     "the-future-of-work",
+    "why-everything-is-becoming-a-subscription",
   ];
 
   /* =====================================================
