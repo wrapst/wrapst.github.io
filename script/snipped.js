@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-new-shape-of-apple",
     "the-future-of-work",
     "why-everything-is-becoming-a-subscription",
+    "why-nature-rarely-builds-in-straight-lines",
   ];
 
   /* =====================================================
