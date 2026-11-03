@@ -3,6 +3,36 @@ window.addEventListener("load", async function () {
   await load("/component/footer.html", "footer");
 
   initMenu();
+
+  /* Google Analytics 4 */
+  (function () {
+    const measurementId = "G-GNH3F0QNT2";
+
+    window.dataLayer = window.dataLayer || [];
+
+    window.gtag =
+      window.gtag ||
+      function () {
+        window.dataLayer.push(arguments);
+      };
+
+    // Default consent state
+    window.gtag("consent", "default", {
+      analytics_storage: "denied",
+      ad_storage: "denied",
+      ad_user_data: "denied",
+      ad_personalization: "denied",
+    });
+
+    window.gtag("js", new Date());
+    window.gtag("config", measurementId);
+
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+
+    document.head.appendChild(script);
+  })();
 });
 
 function initMenu() {
