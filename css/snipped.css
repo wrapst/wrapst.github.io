@@ -146,7 +146,6 @@
   width: 100px;
   height: 100px;
   flex-shrink: 0;
-  border-radius: 4px;
 }
 
 .snipped-holder .snipped.snipped-skeleton .text {
@@ -164,11 +163,9 @@
   height: 24px;
   width: 380px;
   max-width: 85%;
-  border-radius: 4px;
 }
 
 .snipped-holder .snipped.snipped-skeleton .skeleton-desc {
-  border-radius: 4px;
 }
 
 .snipped-holder .snipped.snipped-skeleton .skeleton-desc-1 {
@@ -192,7 +189,6 @@
 .snipped-holder .snipped.snipped-skeleton .skeleton-category {
   height: 22px;
   width: 75px;
-  border-radius: 4px;
 }
 
 /* Shimmer Animation */
