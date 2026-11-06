@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-nature-rarely-builds-in-straight-lines",
     "the-vodka-that-learned-to-be-expensive",
     "the-proteinification-of-everything",
+    "the-futures-we-left-behind",
   ];
 
   /* =====================================================
