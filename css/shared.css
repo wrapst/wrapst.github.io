@@ -33,13 +33,143 @@ body {
 .spacer-small {
   height: 50px;
 }
+.spacer-ultra-small {
+  height: 10px;
+}
 
 #navbar {
   width: 100%;
   padding: 30px 40px;
   box-sizing: border-box;
-  div {
+
+  .site-navbar {
+    width: 100%;
     justify-content: space-between;
+  }
+}
+
+/* =====================================================
+   NAVBAR BRAND & ABSORPTION ANIMATION
+   ===================================================== */
+
+.nav-brand {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.nav-brand .img-logo {
+  height: 50px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 2;
+  transform-origin: center;
+  transition:
+    transform 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nav-brand:hover .img-logo {
+  transform: scale(1.05);
+}
+
+.logo-text-wrapper {
+  display: inline-flex;
+  align-items: center;
+  /* overflow: hidden; */
+  max-width: 260px;
+  margin-left: 14px;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  pointer-events: none;
+  transition:
+    max-width 0.95s cubic-bezier(0.65, 0, 0.15, 1),
+    margin-left 0.95s cubic-bezier(0.65, 0, 0.15, 1),
+    opacity 0.7s cubic-bezier(0.65, 0, 0.15, 1);
+}
+
+.nav-brand .logo-text {
+  display: inline-block;
+  white-space: nowrap;
+  transform: translateX(0);
+  opacity: 1;
+  filter: blur(0px);
+  transition:
+    transform 0.95s cubic-bezier(0.65, 0, 0.15, 1),
+    opacity 0.65s cubic-bezier(0.65, 0, 0.15, 1),
+    filter 0.55s cubic-bezier(0.65, 0, 0.15, 1);
+}
+
+/* Absorbed state: text slides directly into the logo and collapses */
+.nav-brand.collapsed .logo-text-wrapper {
+  max-width: 0;
+  margin-left: 0;
+  opacity: 0;
+}
+
+.nav-brand.collapsed .logo-text {
+  transform: translateX(-100%);
+  opacity: 0;
+  filter: blur(2px);
+}
+
+/* Logo pulse / breath when absorbing the text */
+@keyframes logo-absorb-pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.nav-brand.animating .img-logo {
+  animation: logo-absorb-pulse 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) 0.55s;
+}
+
+/* Living hover effect: brand text gracefully emerges from the logo */
+.nav-brand:hover .logo-text-wrapper,
+.nav-brand:focus-visible .logo-text-wrapper {
+  max-width: 260px;
+  margin-left: 8px;
+  opacity: 1;
+  transition:
+    max-width 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+    margin-left 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nav-brand:hover .logo-text,
+.nav-brand:focus-visible .logo-text {
+  transform: translateX(0);
+  opacity: 1;
+  filter: blur(0px);
+  transition:
+    transform 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+    opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+    filter 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .logo-text-wrapper,
+  .nav-brand .logo-text,
+  .nav-brand .img-logo {
+    transition: none !important;
+    animation: none !important;
   }
 }
 
@@ -47,14 +177,17 @@ body {
   width: 100%;
   padding: 30px 40px;
   box-sizing: border-box;
+
   .line {
     width: 900px;
     height: 1px;
     background: rgba(0, 0, 0, 0.4);
   }
+
   div {
     gap: 40px;
   }
+
   div div {
     gap: 50px;
   }
@@ -88,14 +221,22 @@ body {
     padding: 20px;
 
     .logo {
-      font-size: 36px;
-      line-height: 42px;
+      font-size: 34px;
+      line-height: 40px;
     }
 
-    img {
-      width: 26px;
-      height: 26px;
+    .img-logo {
+      height: 36px;
     }
+
+    .logo-text-wrapper {
+      margin-left: 4px;
+    }
+  }
+
+  .nav-brand:hover .logo-text-wrapper,
+  .nav-brand:focus-visible .logo-text-wrapper {
+    margin-left: 4px;
   }
 
   #footer {
@@ -299,5 +440,25 @@ body.menu-open {
 @media (max-width: 420px) {
   #side-menu {
     width: 88vw;
+  }
+
+  #navbar {
+    .logo {
+      font-size: 28px;
+      line-height: 34px;
+    }
+
+    .img-logo {
+      height: 32px;
+    }
+
+    .logo-text-wrapper {
+      margin-left: 4px;
+    }
+  }
+
+  .nav-brand:hover .logo-text-wrapper,
+  .nav-brand:focus-visible .logo-text-wrapper {
+    margin-left: 8px;
   }
 }

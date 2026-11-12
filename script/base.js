@@ -3,6 +3,7 @@ window.addEventListener("load", async function () {
   await load("/component/footer.html", "footer");
 
   initMenu();
+  initNavbarAnimation();
 
   // /* Google Analytics 4 */
   // (function () {
@@ -78,4 +79,38 @@ function initMenu() {
       closeMenu();
     }
   });
+}
+
+function initNavbarAnimation() {
+  const brand = document.querySelector(".nav-brand");
+  if (!brand) return;
+
+  let hasCollapsed = false;
+
+  function collapseBrand() {
+    if (hasCollapsed) return;
+    hasCollapsed = true;
+
+    brand.classList.add("animating");
+    brand.classList.add("collapsed");
+
+    setTimeout(() => {
+      brand.classList.remove("animating");
+    }, 1400);
+  }
+
+  // Allow the visitor to view the brand for a moment, then absorb it into the logo
+  const timer = setTimeout(collapseBrand, 1400);
+
+  // If user scrolls before timer fires, collapse immediately
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (window.scrollY > 30 && !hasCollapsed) {
+        clearTimeout(timer);
+        collapseBrand();
+      }
+    },
+    { passive: true, once: true }
+  );
 }
