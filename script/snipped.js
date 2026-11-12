@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-proteinification-of-everything",
     "the-futures-we-left-behind",
     "the-quiet-cost-of-doing-nothing",
+    "why-energy-drinks-are-about-more-than-energy",
   ];
 
   /* =====================================================
