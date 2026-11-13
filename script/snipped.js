@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-futures-we-left-behind",
     "the-quiet-cost-of-doing-nothing",
     "why-energy-drinks-are-about-more-than-energy",
+    "why-being-bored-is-essential",
   ];
 
   /* =====================================================
