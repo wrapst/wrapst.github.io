@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-energy-drinks-are-about-more-than-energy",
     "why-being-bored-is-essential",
     "the-trees-that-forget-autumn",
+    "why-optimal-structures-look-alive",
   ];
 
   /* =====================================================
