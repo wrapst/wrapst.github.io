@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "why-being-bored-is-essential",
     "the-trees-that-forget-autumn",
     "why-optimal-structures-look-alive",
+    "one-light-day-from-earth",
   ];
 
   /* =====================================================
