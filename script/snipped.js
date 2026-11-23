@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "the-trees-that-forget-autumn",
     "why-optimal-structures-look-alive",
     "one-light-day-from-earth",
+    "why-the-gym-became-the-new-boundary-of-the-day",
   ];
 
   /* =====================================================
