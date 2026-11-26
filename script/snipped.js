@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     "one-light-day-from-earth",
     "why-the-gym-became-the-new-boundary-of-the-day",
     "the-distance-between-wanting-and-building",
+    "the-end-of-the-software-version",
   ];
 
   /* =====================================================
